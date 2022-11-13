@@ -74,6 +74,24 @@ body {
   overflow-x: hidden;
 }
 
+.sourceCodeBtn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px 18px;
+  font-size: 14px;
+  background-color: #17a2b8;
+  color: white;
+  border-bottom-left-radius: 6px;
+  transition: 0.3s;
+}
+
+.sourceCodeBtn:hover{
+  background-color: #c00f33;
+  color: #fff;
+  text-decoration: none;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
